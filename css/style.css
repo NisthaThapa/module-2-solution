@@ -1,0 +1,66 @@
+body {
+	background-color:#eee;
+}
+h1{color: black;text-align: center; color: black;
+}
+
+.section-child{
+	background-color: #9e9e9e;
+}
+
+*{box-sizing: border-box;}
+div .section-title{
+	border: 1px solid black;
+	width: 25%;
+	float: right;
+	margin-bottom: 5px;
+	text-align: center;
+	background-color: #00bcd4;
+
+}
+div .style1{
+	background-color:#00bcd4; 
+}
+div .style2{
+	background-color:#4caf50; 
+}
+div .style3{
+	background-color:#ff9800; 
+}
+div p{padding: 10px;
+margin-top: 25px;
+color: black;
+}
+@media (min-width: 992px){
+	div .section-lg{
+
+		width:33.33%;
+		float: left;
+
+	}
+	.section-lg .section-child{
+		margin:10px;
+		border: 1px solid black;
+
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	div .section-md{	
+		width:50%;
+		float: left;
+	}
+	div .section-md1{	
+		width:100%;
+		float: left;
+	}
+
+	.section-md .section-child{
+		margin:5px;
+		border: 1px solid black;
+	}
+
+}
+
+
+
